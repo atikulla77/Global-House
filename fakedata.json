@@ -1,0 +1,222 @@
+[
+	{
+		"id": 1,
+		"user": "jillurahmanjibon",
+		"caption": "Post 1 - Enjoying a beautiful sunset 🌅",
+		"imageUrl": "https://t3.ftcdn.net/jpg/06/15/49/68/360_F_615496890_W34yB8VDE6n5pehb5QCt1ek5oEvRo9qA.webp",
+		"likes": 56,
+		"comments": [
+			{ "user": "jibon", "text": "Beautiful view!" },
+			{ "user": "jane_doe", "text": "Where was this taken?" }
+		]
+	},
+	{
+		"id": 2,
+		"user": "susan_patel",
+		"caption": "Post 2 - Delicious homemade pasta 🍝",
+		"imageUrl": "https://t3.ftcdn.net/jpg/09/96/38/88/240_F_996388880_2PHcngeL6twGqNpcQss3KAYeyLW8jc1V.jpg",
+		"likes": 89,
+		"comments": [
+			{ "user": "chef_amy", "text": "Looks so tasty!" },
+			{ "user": "gourmet_guy", "text": "Recipe please?" }
+		]
+	},
+	{
+		"id": 3,
+		"user": "mike_traveler",
+		"caption": "Post 3 - Hiking adventures in the Rockies 🏞️",
+		"imageUrl": "https://t4.ftcdn.net/jpg/08/58/24/13/240_F_858241318_RcXRZghoJbPw4AOrm3oJEUnbqlTuVdsc.jpg",
+		"likes": 102,
+		"comments": [
+			{ "user": "naturelover", "text": "What a view!" },
+			{ "user": "mountain_moments", "text": "I was there last summer!" }
+		]
+	},
+	{
+		"id": 4,
+		"user": "artsy_anna",
+		"caption": "Post 4 - Just finished my latest painting 🎨",
+		"imageUrl": "https://t3.ftcdn.net/jpg/06/27/55/86/240_F_627558612_SOpboM36jhoUBpyd2JjcblGe6uQvluDV.jpg",
+		"likes": 45,
+		"comments": [
+			{ "user": "creative_kate", "text": "Amazing work!" },
+			{ "user": "john_doe", "text": "You’re so talented!" }
+		]
+	},
+	{
+		"id": 5,
+		"user": "fitness_fanatic",
+		"caption": "Post 5 - Morning workout grind 💪",
+		"imageUrl": "https://t3.ftcdn.net/jpg/07/05/07/94/240_F_705079432_LuTFT5eP9705o96tsmTQFSljW5ho4arW.jpg",
+		"likes": 120,
+		"comments": [
+			{ "user": "gym_rat", "text": "Respect the hustle!" },
+			{ "user": "fit_tina", "text": "Goals 💯" }
+		]
+	},
+	{
+		"id": 6,
+		"user": "johnny_tech",
+		"caption": "Post 6 - Just got my hands on the latest gadget! 🔥",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 73,
+		"comments": [
+			{ "user": "techlover", "text": "I need one!" },
+			{ "user": "gadget_guru", "text": "How’s the battery life?" }
+		]
+	},
+	{
+		"id": 7,
+		"user": "wanderlust_wendy",
+		"caption": "Post 7 - Exploring the streets of Paris 🇫🇷",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 134,
+		"comments": [
+			{ "user": "travelbug", "text": "Love Paris!" },
+			{ "user": "frenchy_fan", "text": "Take me with you!" }
+		]
+	},
+	{
+		"id": 8,
+		"user": "nature_nerd",
+		"caption": "Post 8 - Camping under the stars 🌌",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 92,
+		"comments": [
+			{ "user": "outdoor_adventurer", "text": "So peaceful!" },
+			{ "user": "stargazer", "text": "Did you see the Milky Way?" }
+		]
+	},
+	{
+		"id": 9,
+		"user": "petlover_paul",
+		"caption": "Post 9 - My dog’s first swim 🐶",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 88,
+		"comments": [
+			{ "user": "animal_ally", "text": "Too cute!" },
+			{ "user": "dogmom", "text": "He looks so happy!" }
+		]
+	},
+	{
+		"id": 10,
+		"user": "foodie_fred",
+		"caption": "Post 10 - Street food feast in Bangkok 🍜",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 147,
+		"comments": [
+			{ "user": "hungry_joe", "text": "Drooling over this!" },
+			{ "user": "spicy_sam", "text": "How was the Pad Thai?" }
+		]
+	},
+	{
+		"id": 11,
+		"user": "diy_dana",
+		"caption": "Post 11 - Check out my latest DIY project 🔨",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 52,
+		"comments": [
+			{ "user": "crafty_carol", "text": "This is genius!" },
+			{ "user": "handy_harry", "text": "Can you share a tutorial?" }
+		]
+	},
+	{
+		"id": 12,
+		"user": "gamer_gary",
+		"caption": "Post 12 - Crushing it on my new game 🎮",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 95,
+		"comments": [
+			{ "user": "gaming_guru", "text": "Which level are you on?" },
+			{ "user": "player_one", "text": "Add me as a friend!" }
+		]
+	},
+	{
+		"id": 13,
+		"user": "bookworm_betty",
+		"caption": "Post 13 - Loving this new novel 📚",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 67,
+		"comments": [
+			{ "user": "reading_rachel", "text": "What’s the title?" },
+			{ "user": "lit_lover", "text": "I’ve been meaning to read that!" }
+		]
+	},
+	{
+		"id": 14,
+		"user": "sportsman_sam",
+		"caption": "Post 14 - Soccer practice with the team ⚽",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 115,
+		"comments": [
+			{ "user": "sportsfan", "text": "Game on!" },
+			{ "user": "goalgetter", "text": "Which position do you play?" }
+		]
+	},
+	{
+		"id": 15,
+		"user": "garden_gina",
+		"caption": "Post 15 - My roses are finally blooming 🌹",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 85,
+		"comments": [
+			{ "user": "flower_fan", "text": "So vibrant!" },
+			{ "user": "green_thumb", "text": "What’s your secret?" }
+		]
+	},
+	{
+		"id": 16,
+		"user": "adventure_amy",
+		"caption": "Post 16 - Skydiving for the first time 🪂",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 199,
+		"comments": [
+			{ "user": "thrill_seeker", "text": "So brave!" },
+			{ "user": "adrenaline_addict", "text": "How was the landing?" }
+		]
+	},
+	{
+		"id": 17,
+		"user": "citylife_chris",
+		"caption": "Post 17 - Nightlife in Tokyo 🏙️",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 122,
+		"comments": [
+			{ "user": "urban_explorer", "text": "The lights are amazing!" },
+			{ "user": "tokyo_lover", "text": "Did you try sushi there?" }
+		]
+	},
+	{
+		"id": 18,
+		"user": "musician_matt",
+		"caption": "Post 18 - Jamming with my new guitar 🎸",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 78,
+		"comments": [
+			{ "user": "music_fan", "text": "Play something for us!" },
+			{ "user": "strummer", "text": "What brand is it?" }
+		]
+	},
+	{
+		"id": 19,
+		"user": "science_sue",
+		"caption": "Post 19 - Experimenting in the lab 🔬",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 65,
+		"comments": [
+			{ "user": "geek_gary", "text": "What are you working on?" },
+			{ "user": "lab_rat", "text": "Can I join you?" }
+		]
+	},
+	{
+		"id": 20,
+		"user": "fashionista_fay",
+		"caption": "Post 20 - My OOTD 💃",
+		"imageUrl": "https://via.placeholder.com/500",
+		"likes": 150,
+		"comments": [
+			{ "user": "style_star", "text": "Where’s the outfit from?" },
+			{ "user": "trend_tracker", "text": "Looking fabulous!" }
+		]
+	}
+]

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.PoppinsFont{
+  font-family: "Poppins", serif;
+}
+.MontserratFont{
+  font-family: "Montserrat", serif;
+}
+.RalewayFont{
+  font-family: "Raleway", serif;
+}
+
+.inputStyleIng[type="text"]:focus ~ .inputStyleIngText,
+.inputStyleIng[type="text"]:not(:placeholder-shown) ~ .inputStyleIngText {
+  @apply text-[#0C8BFD] bg-[#1F2022] transform -translate-y-[22px] -translate-x-[3px] scale-75 cursor-default !pr-[4px];
+}
+.inputStyleIng[type="email"]:focus ~ .inputStyleIngText,
+.inputStyleIng[type="email"]:not(:placeholder-shown) ~ .inputStyleIngText {
+  @apply text-[#0C8BFD] bg-[#1F2022] transform -translate-y-[22px] -translate-x-[3px] scale-75 cursor-default !pr-[4px];
+}
+.inputStyleIng[type="tel"]:focus ~ .inputStyleIngText,
+.inputStyleIng[type="tel"]:not(:placeholder-shown) ~ .inputStyleIngText {
+  @apply text-[#0C8BFD] bg-[#1F2022] transform -translate-y-[22px] -translate-x-[3px] scale-75 cursor-default !pr-[4px];
+}
+.inputStyleIng[type="password"]:focus ~ .inputStyleIngText,
+.inputStyleIng[type="password"]:not(:placeholder-shown) ~ .inputStyleIngText {
+  @apply text-[#0C8BFD] bg-[#1F2022] transform -translate-y-[22px] -translate-x-[3px] scale-75 cursor-default !pr-[4px];
+}
+
+
+
+
+.MessagesAreaScrollBar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.MessagesAreaScrollBar::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+}
+.MessagesAreaScrollBar::-webkit-scrollbar-track {
+  background-color: #1b1b1b;
+}

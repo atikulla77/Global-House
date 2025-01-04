@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =-=-=-=-=-=-=-=-=-=-=-=Main Chatting Animation=-=-=-=-=-=-=-=-=-=-=-= */
+/* animation Left */
+.siteMainChattingAnimationLeft {
+  right: 0%;
+}
+@media only screen and (max-width: 700px) {
+  .siteMainChattingAnimationLeft {
+    animation: mainChattingAnimationLeft 0.3s forwards;
+  }
+}
+@keyframes mainChattingAnimationLeft {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 0%;
+  }
+}
+
+/* animation Right */
+.siteMainChattingAnimationRight {
+  right: 0%;
+}
+@media only screen and (max-width: 700px) {
+  .siteMainChattingAnimationRight {
+    animation: mainChattingAnimationRight 0.3s backwards;
+  }
+}
+@keyframes mainChattingAnimationRight {
+  from {
+    right: 0%;
+  }
+  to {
+    right: -100%;
+  }
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=Chatting Action Button Animation=-=-=-=-=-=-=-=-=-=-=-= */
+/* animation to show Action Button Tools */
+.ChattingActionButtonToolsShowAnimation {
+  animation: chattingActionBottomAnimation 0.2s backwards;
+  bottom: 0%;
+}
+@keyframes chattingActionBottomAnimation {
+  from {
+    bottom: -100%;
+  }
+  to {
+    bottom: 0%;
+  }
+}
+/* animation to hide Action Button Tools */
+.ChattingActionButtonToolsHideAnimation {
+  animation: chattingActionTopAnimation 0.2s backwards;
+  bottom: -100%;
+}
+@keyframes chattingActionTopAnimation {
+  from {
+    bottom: 0%;
+  }
+  to {
+    bottom: -100%;
+  }
+}
