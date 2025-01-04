@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { useAppSelector } from "../redux/hooks"; // to access user data
-import { TUser } from "../redux/features/auth/authSlice"; // assuming user info is stored in redux
 
 const Home: React.FC = () => {
 	// Accessing user data from Redux
-	const user = useAppSelector(state => state.auth.user) as TUser;
 
 	// State for posts and loading indicator
 	const [posts, setPosts] = useState<any[]>([]);
@@ -76,7 +73,7 @@ const Home: React.FC = () => {
 							...post,
 							comments: [
 								...post.comments,
-								{ user: user.name, text: newComment },
+								{ user: "user.name", text: newComment },
 							],
 					  }
 					: post
@@ -136,10 +133,10 @@ const Home: React.FC = () => {
 								<div className="bg-gray-100 p-3 rounded-lg">
 									<h4 className="font-semibold mb-2">Comments:</h4>
 									<ul className="space-y-2">
-										{post.comments.map((comment, index) => (
-											<li key={index} className="text-gray-700">
-												<span className="font-bold">{comment.user}: </span>
-												{comment.text}
+										{post.comments.map(() => (
+											<li className="text-gray-700">
+												<span className="font-bold">{"comment.user"}: </span>
+												{"comment.text"}
 											</li>
 										))}
 									</ul>

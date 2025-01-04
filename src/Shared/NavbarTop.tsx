@@ -20,7 +20,7 @@ function NavbarTop() {
       <nav className=" w-full fixed top-0 left-0 right-0 flex z-[51]">
         <div className="mx-auto px-[18px] w-[100%] flex justify-center items-center relative h-[4.7rem] bg-[#1F2022] screens1:border-b-[1.5px] border-b-0 border-b-[#2f2f2f]">
           {showLoginNav ? (
-            <img src={logo} className="w-[118px]" />
+            <img src={logo} onClick={() => {setshowLoginNav(false)}} className="w-[118px]" />
           ) : (
             <div className="w-full flex items-center justify-between ">
               <div className="">

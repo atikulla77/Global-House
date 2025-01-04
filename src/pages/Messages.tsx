@@ -1,4 +1,4 @@
-import Chatting from "./Chatting";
+
 import MessageList from "./MessageList"
 function Messages() {
   return (
